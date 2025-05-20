@@ -6,6 +6,7 @@ import time
 from mpe2 import simple_adversary_v3
 
 # Set device
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 # Set Hyperparameters
 # 1 Initialize the Agents
 # 1.1 Get obs_dim
