@@ -30,4 +30,3 @@ for episode_i in range(NUM_EPISODE):
 # 3 Render the env
 # 4 Save the agents' models
 # 5 plt
-#test1
